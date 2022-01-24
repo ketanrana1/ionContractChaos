@@ -1,0 +1,71 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.ion-text-with-img-wrapper {
+  .ion-twi-col-left {
+	.sub-heading {
+	  font-weight: 600;
+	  font-size: 18px;
+	  text-transform: uppercase;
+	  letter-spacing: 1px;
+	}
+	.heading {
+	  letter-spacing: 2px;
+	  margin: 35px 0;
+	}
+	.description {
+
+	}
+  }
+  .content-pad-right {
+	padding-right: 60px;
+  }
+  .ion-twi-col-right {
+	position: relative;
+	.twi-shape-bg {
+	  position: absolute;
+	  right: 70px;
+	  bottom: 0;
+	}
+	.twi-shape-bg-2 {
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	}
+	.twi-image {
+	  max-width: 500px;
+	margin: 0 auto;
+	display: block;
+	}
+  }
+}
+
+
+
+@media only screen and (max-width:992px) {
+	.ion-pad-ver-med {
+		padding: 40px 0;
+	}
+
+	.ion-text-with-img-wrapper .content-pad-left {
+		padding:0;
+	}
+	
+	.ion-text-with-img-wrapper {
+		
+		.ion-twi-col-left {
+            margin-top:40px;
+        }
+		.row {
+			flex-direction:column-reverse;
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.ion-text-with-img-wrapper .content-pad-right {
+		padding-right: unset;
+	}
+}

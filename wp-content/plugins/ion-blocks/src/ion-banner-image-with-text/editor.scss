@@ -1,0 +1,48 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+ .banner-with-text {
+	min-height:399px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	.container {
+		max-width:80%;
+		margin: 0 auto;
+	}
+	.text-cont {
+	   max-width: 560px; 
+	   h2 {
+		  font-size: 52px;
+		  letter-spacing: 3px;
+		  color: #ffffff;
+		  font-weight: 700;
+		  font-family: "Poppins";
+		  margin-bottom: 0;
+		  &:after {
+			 content: "";
+			 display: block;
+			 max-width: 175px;
+			 height: 3px;
+			 background: white;
+			 margin-top: 5px;
+			 margin-bottom: 10px;
+	
+		  }
+	   }
+	   p {
+		  font-size: 16px;
+		  letter-spacing: 1px;
+		  color: #ffffff;
+		  font-weight: 400;
+		  font-family: "Poppins";
+	   }
+	}
+ }
+ 

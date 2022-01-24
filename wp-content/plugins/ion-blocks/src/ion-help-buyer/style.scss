@@ -1,0 +1,77 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+
+ .ion-helps-buyers {
+    //  background: url(http://localhost/ion-supply/wp-content/uploads/2022/01/Rectangle-41.png);
+     .left-cont {
+        padding: 100px 50px 150px 195px;
+        h2 {
+            font-size: 40px;
+            letter-spacing: 2px;
+            color: #ffffff;
+            font-weight: 600;
+            font-family: "Poppins";
+            margin-bottom: 25px;
+        }
+        p {
+            font-size: 16px;
+            letter-spacing: 1px;
+            line-height: 27px;
+            color: #ffffff;
+            font-weight: 300;
+            font-family: "Poppins";
+        }
+     }
+     .right-cont {
+
+        height: 100%;
+     }
+	 
+ }
+
+
+ @media only screen and (max-width:1400px) {
+
+    .ion-helps-buyers {
+        .left-cont {
+            padding: 50px;
+        }
+
+    }
+    
+ }
+
+ @media only screen and (max-width:992px) {
+
+    .ion-helps-buyers {
+
+        background-size:cover;
+        background-repeat: no-repeat;
+        .row {
+            flex-direction: column-reverse;
+        }
+
+        .left-cont {
+            padding: 25px 20px;
+            h2 {
+                font-size: 24px;
+            }
+    
+            p {
+                font-size: 14px;
+    
+            }
+        }
+
+        .right-cont {
+            height: 290px;
+            padding: 30px 10px;
+        }
+
+    }
+     
+ }

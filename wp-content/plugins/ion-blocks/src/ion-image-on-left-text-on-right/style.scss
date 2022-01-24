@@ -1,0 +1,86 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+
+
+ .ion-image-on-left-text-on-right {
+	 padding: 100px 0;
+
+	 .image-cont {
+		 img {
+			 max-width: 100%;
+		 }
+		 max-width: 550px;
+
+
+	 }
+	 .text-cont {
+		max-width: 500px;
+
+		h2 {
+			font-size: 20px;
+			letter-spacing: 1px;
+			color: #3c3c3c;
+			font-weight: 600;
+			font-family: "Poppins";
+		}
+		h3 {
+			font-size: 34px;
+			letter-spacing: 2px;
+			color: #000000;
+			font-weight: 700;
+			font-family: "Poppins";
+			padding: 30px 0 40px 0;
+		}
+		p {
+			font-size: 16px;
+			letter-spacing: 1px;
+			line-height: 30px;
+			color: #000000;
+			font-weight: 300;
+			font-family: "Poppins";
+		}
+
+	 }
+ }
+
+ @media only screen and (max-width: 992px) {
+
+	.ion-image-on-left-text-on-right {
+		padding: 50px 0;
+   
+		.image-cont {
+			max-width: 100%;
+			margin-bottom: 60px;
+			img {
+				max-width:90%;
+			}
+   
+   
+		}
+		.text-cont {
+		   max-width: 100%;
+   
+		   h2 {
+			   font-size: 18px;
+		   }
+		   h3 {
+			   font-size: 26px;
+			   padding: 15px 0 20px 0;
+		   }
+		   p {
+			   font-size: 14px;
+		   }
+   
+		}
+	}
+	.ion-text-with-img-wrapper .ion-twi-col-left .twi-image {
+		max-width: 90%;
+		display:block;
+		margin: 0 auto;
+	}
+
+ }

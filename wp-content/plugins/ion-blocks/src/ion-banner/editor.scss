@@ -1,0 +1,39 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.ion-banner-wrapper {
+  .ion-banner-side-img {
+	display: flex; 
+	bottom: inherit;
+	img {
+	  max-width: 60%;
+	  margin-left: auto;
+	}
+  }
+  .ion-banner-shape {
+	display: flex;
+	img {
+	  max-width: 60%;
+	  margin-right: auto;
+	}
+  }
+  .ion-banner-text-wrapper {
+	max-width: 390px;
+	margin-left: 178px;
+	padding: 110px 0 110px;
+	height: auto;
+	h1 {
+	  font-size: 42px;
+	  .span-colored-heading {
+		color:#8b008b;
+	  } 
+	}
+	p {
+
+	}
+  }
+}

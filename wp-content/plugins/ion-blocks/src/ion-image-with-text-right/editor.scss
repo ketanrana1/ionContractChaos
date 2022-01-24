@@ -1,0 +1,49 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.ion-text-with-img-wrapper {
+  padding: 60px 0;
+  .ion-twi-col-left {
+	.sub-heading {
+	  font-weight: 600;
+	  font-size: 18px;
+	  text-transform: uppercase;
+	  letter-spacing: 1px;
+	}
+	.heading {
+	  letter-spacing: 2px;
+	  margin: 35px 0;
+	  font-size: 34px;
+	}
+	.description {
+	  font-size: 16px;
+	  line-height: 27px;
+	  font-weight: 300;
+	}
+  }
+  .content-pad-right {
+	padding-right: 60px;
+  }
+  .ion-twi-col-right {
+	position: relative;
+	.twi-shape-bg {
+	  position: absolute;
+	  right: 0;
+	  bottom: 0;
+	}
+	.twi-shape-bg-2 {
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	}
+	.twi-image {
+		max-width: 500px;
+		margin: 0 auto;
+		display: block;
+	}
+  }
+}

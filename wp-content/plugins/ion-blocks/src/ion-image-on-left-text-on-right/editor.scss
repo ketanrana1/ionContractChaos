@@ -1,0 +1,47 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+ .ion-image-on-left-text-on-right {
+	padding: 100px 0;
+
+	.image-cont {
+		img {
+			max-width: 100%;
+		}
+		max-width: 550px;
+
+
+	}
+	.text-cont {
+	   max-width: 500px;
+
+	   h2 {
+		   font-size: 20px;
+		   letter-spacing: 1px;
+		   color: #3c3c3c;
+		   font-weight: 600;
+		   font-family: "Poppins";
+	   }
+	   h3 {
+		   font-size: 34px;
+		   letter-spacing: 2px;
+		   color: #000000;
+		   font-weight: 700;
+		   font-family: "Poppins";
+		   padding: 30px 0 40px 0;
+	   }
+	   p {
+		   font-size: 16px;
+		   letter-spacing: 1px;
+		   line-height: 30px;
+		   color: #000000;
+		   font-weight: 300;
+		   font-family: "Poppins";
+	   }
+
+	}
+}

@@ -1,0 +1,111 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */ 
+
+
+
+ .ion-why-choose-us {
+
+    .ion-why-choose-us-main-row {
+        display: flex;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+    .image-cont {
+        height:100%;
+        img {
+            height: 100%;
+            width:100%;
+            object-fit: cover;
+        }
+    }
+
+    .text-cont {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        padding: 40px 0;
+        h2 {
+            font-size: 40px;
+            letter-spacing: 2px;
+            color: #fefefe;
+            font-weight: 600;
+            font-family: "Poppins";
+        }
+    }
+
+    .icon-text-outer-cont {
+        transform: translateX(-56px);
+        max-width: 699px;
+        .icon-text-cont {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom:40px;
+            .icon-image-cont {
+                width: 12%;
+                img {
+                    display:block;
+                margin: 0 auto;
+                }
+            }
+            .cont-text {
+                width: 80%;
+                h3 {
+                    font-size: 30px;
+                    letter-spacing: 2px;
+                    color: #fefefe;
+                    font-weight: 600;
+                    font-family: "Poppins";
+                }
+                p {
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    line-height: 30px;
+                    color: #fefefe;
+                    font-weight: 400;
+                    font-family: "Poppins";
+                }
+            }
+        }
+    }
+	 
+ }
+
+ @media only screen and (max-width:992px) {
+    .ion-why-choose-us {
+        margin-bottom:40px; 
+        .text-cont {
+            padding: 40px 20px;
+            h2 {
+                font-size: 28px;
+            }
+        }
+    
+        .icon-text-outer-cont {
+            transform: unset;
+            .icon-text-cont {
+                margin-bottom:40px;
+                .icon-image-cont {
+                    width: 19%;  
+                }
+                .cont-text {
+                    width: 71%;
+                    h3 {
+                        font-size: 24px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+         
+     }
+ }

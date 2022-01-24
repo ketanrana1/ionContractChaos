@@ -1,0 +1,77 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+
+ .ion-about-the-team {
+	padding: 120px 0;
+	.gx-5 {
+	   --bs-gutter-x: 4rem;
+   }
+	.inner-top-cont {
+		margin-bottom: 70px;
+		h2 {
+		   font-size: 40px;
+		   letter-spacing: 2px;
+		   color: #000000;
+		   font-weight: 700;
+		   font-family: "Poppins";
+		   text-align:center;
+		   margin-bottom: 20px;
+		}
+		p {
+		   font-size: 15px;
+		   letter-spacing: 1px;
+		   line-height: 27px;
+		   color: #000000;
+		   font-weight: 300;
+		   font-family: "Poppins";
+		   text-align: center;
+
+		}
+	}
+	.bottom-cont {
+		.each-team-member {
+		   border-radius: 12px;
+		   background-color: #ffffff;
+		   box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+			img {
+				max-width:100%;
+				height: auto;
+				border-top-left-radius: 12px;
+				border-top-right-radius: 12px;
+			}
+			.text-cont {
+				padding: 20px 20px 40px 20px;
+				h3 {
+				   font-size: 24px;
+				   letter-spacing: 1px;
+				   line-height: 30px;
+				   color: #000000;
+				   font-weight: 600;
+				   font-family: "Poppins";
+				}
+				h4 {
+				   font-size: 18px;
+				   letter-spacing: 1px;
+				   line-height: 30px;
+				   color: #8b008b;
+				   font-weight: 600;
+				   font-family: "Poppins";
+				   margin-bottom:20px;
+				}
+				p {
+				   font-size: 16px;
+				   letter-spacing: 1px;
+				   line-height: 27px;
+				   color: #000000;
+				   font-weight: 300;
+				   font-family: "Poppins";
+				}
+			}
+		}
+	}
+}

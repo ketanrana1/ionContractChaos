@@ -1,0 +1,218 @@
+/*common css start here*/
+body {
+    font-family: Poppins, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+h1 {
+    font-size: 54px;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 34px;
+}
+h4 {
+    font-size: 24px;
+}
+h5 {
+    font-size: 16px;
+}
+h6 {
+    font-size: 14px;
+}
+p {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #000000;
+    letter-spacing: 1px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ion-color-white {
+    color: #ffffff;
+}
+.ion-color-primary {
+    color: #8b008b;
+}
+.ion-color-secondary {
+    color: #000000;
+}
+
+.ion-button-md {
+    background-color: #8b008b;
+    color: #ffffff;
+    width: 185px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 28px;
+    text-decoration: none;
+    justify-content: center;
+}
+.ion-button-md:hover, .ion-button-md:focus, .ion-button-md:active {
+    color: #ffffff;
+}
+.ion-pad-ver-med {
+    padding: 80px 0;
+}
+/*common css end here*/
+
+/*header css start here*/
+.page-id-6 .ion-header-wrapper {
+    position: absolute !important;
+    padding: 5px 0;
+    width: 100%;
+    z-index: 1;
+	position: relative;
+   border-bottom: none;
+	z-index: 9999;
+}
+
+
+/*.ion-banner-wrapper .ion-banner-side-img {*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*}*/
+/*.ion-banner-wrapper .ion-banner-side-img img {*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*}*/
+
+
+
+
+.ion-header-wrapper .navbar {
+
+}
+.ion-header-wrapper .navbar .navbar-brand {
+
+}
+.ion-header-wrapper .navbar .navbar-brand img {
+    width: 90px;
+    max-width: 100%;
+}
+.ion-header-wrapper .navbar .navbar-toggler {
+
+}
+.ion-header-wrapper .navbar .navbar-toggler .navbar-toggler-icon {
+
+}
+.ion-header-wrapper .navbar .navbar-nav {
+    background-color: rgb(255, 255, 255,0.6);
+    padding: 0 50px;
+}
+.ion-header-wrapper .navbar .navbar-nav .nav-item {
+
+}
+.ion-header-wrapper .navbar .navbar-nav .nav-item .nav-link {
+    color: #000000;
+    padding: 15px 15px;
+}
+.ion-header-wrapper .navbar .navbar-nav .nav-item .nav-link.active {
+    color: #8b008b;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("/ion-supply/wp-content/uploads/2022/01/list.png");
+	width: 40px;
+height: 40px;
+}
+.navbar-light .navbar-toggler {
+    border: none;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+/*header css end here*/
+
+/*footer css start here*/
+.ion-ft-wrapper {
+    background-color: #f0def0;
+    padding: 25px 0 20px;
+}
+.ion-ft-wrapper .ft-logo-with-text {
+
+}
+.ion-ft-wrapper .ft-logo-with-text .logo-wrapper {
+    min-height: 62px;
+}
+.ion-ft-wrapper .ft-logo-with-text .logo-wrapper .logo {
+    margin-bottom: 12px
+}
+.ion-ft-wrapper .ft-logo-with-text p {
+    color: #131313;
+}
+.ion-ft-wrapper .ion-common-ft-col {
+
+}
+.ion-ft-wrapper .ion-common-ft-col .title {
+    font-weight: 500;
+    color: #131313;
+    margin-bottom: 12px;
+    line-height: 100%;
+    min-height: 62px;
+    display: flex;
+    align-items: self-end;
+    padding-bottom: 12px;
+}
+.ion-ft-wrapper .ion-common-ft-col ul {
+
+}
+.ion-ft-wrapper .ion-common-ft-col ul li {
+    margin-bottom: 16px;
+}
+.ion-ft-wrapper .ion-common-ft-col ul li:last-child {
+    margin-bottom: 0;
+}
+.ion-ft-wrapper .ion-common-ft-col ul li a {
+    color: #131313;
+    text-decoration: none;
+    font-weight: 300;
+    transition: 0.3s ease-in-out;
+}
+.ion-ft-wrapper .ion-common-ft-col ul li a:hover, .ion-ft-wrapper .ion-common-ft-col ul li a:focus {
+
+}
+.ion-ft-wrapper .ion-copyright {
+    border-top: solid 1px #ed81ed;
+    padding-top: 15px;
+    margin-top: 25px;
+    text-align: center;
+}
+/*footer css end here*/
+
+@media only screen and (min-width: 993px) {
+	.navbar-brand {
+  margin-right: 15%;
+}
+}
+
+@media only screen and (max-width:992px) {
+	.page-id-6 .ion-header-wrapper {
+		position: relative !important;
+	}
+	.ion-header-wrapper .navbar .navbar-nav {
+        padding: 0px;
+    margin-top: 20px;
+}
+}

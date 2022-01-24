@@ -1,0 +1,50 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.ion-text-with-img-wrapper {
+  .ion-twi-col-left {
+	position: relative;
+	.twi-shape-bg {
+	  position: absolute;
+	  right: 0;
+	  bottom: 0;
+	}
+	.twi-shape-bg-2 {
+	  position: absolute;
+	  left: 0;
+	  top: 0; 
+	}
+	.twi-image {
+	  max-width: 500px;
+	}
+  }
+  .ion-twi-col-right {
+	.sub-heading {
+	  font-weight: 600;
+	  font-size: 18px;
+	  text-transform: uppercase;
+	  letter-spacing: 1px;
+	}
+	.heading {
+		letter-spacing: 2px;
+	  margin: 35px 0;
+	}
+	.description {
+
+	}
+  }
+  .content-pad-left {
+	padding-left: 60px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	.ion-text-with-img-wrapper .content-pad-left {
+		padding-left: unset;
+	}
+
+}

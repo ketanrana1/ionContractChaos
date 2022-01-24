@@ -1,0 +1,145 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+
+ .contact-details-with-form {
+    padding: 20px 0 80px 0;
+    overflow: hidden;
+    .image-with-details-cont{ 
+        position: relative;
+        .background-img {
+            max-width:100%;
+        }
+        .contact-details-cont {
+            max-width: 450px;
+            padding: 30px;
+            background: white;
+            box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+            position: absolute;
+            right: 0;
+            top: 130px;
+            h2 {
+                font-size: 30px;
+                letter-spacing: 2px;
+                line-height: 30px;
+                color: #000000;
+                font-weight: 600;
+                font-family: "Poppins";
+            }
+            .top-para {
+                font-size: 13px;
+                letter-spacing: 1px;
+                line-height: 21px;
+                color: #000000;
+                font-weight: 300;
+                font-family: "Poppins";
+                margin-bottom: 40px;
+                margin-top:15px;   
+            }
+        }
+        .each-icon-cont {
+            margin-bottom: 30px;
+            img {
+                max-width:100%;
+            }
+            .text-cont {
+                h3 {
+                    font-size: 20px;
+                    letter-spacing: 1px;
+                    line-height: 22px;
+                    color: #000000;
+                    font-weight: 600;
+                    font-family: "Poppins";
+                }
+                p {
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    line-height: 27px;
+                    color: #000000;
+                    font-weight: 400;
+                    font-family: "Poppins";
+                }
+            }
+        }
+    }
+    .form-cont {
+        max-width: 730px;
+        padding-left: 20px;
+        h2 {
+            font-size: 30px;
+            letter-spacing: 2px;
+            line-height: 30px;
+            color: #000000;
+            font-weight: 600;
+            font-family: "Poppins";
+        }
+        p {
+            font-size: 16px;
+            letter-spacing: 1px;
+            line-height: 27px;
+            color: #000000;
+            font-weight: 300;
+            font-family: "Poppins";
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-bottom: 25px; 
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1400px) {
+    .contact-details-with-form {
+        padding: 20px 0 80px 0;  
+        .image-with-details-cont {
+            position: relative;
+            .background-img {
+                max-width:100%;
+                display:none;
+            }
+            .contact-details-cont {
+                position: static;
+                max-width:90%;
+                margin: 0 auto;
+                
+            }
+        }
+        .form-cont {
+            max-width: 90%;
+            margin: 0 auto;
+        }    
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .contact-details-with-form {
+        padding: 20px 0 80px 0;
+        .form-cont {
+            padding-left: unset;
+            h2 {
+                font-size:22px;
+            }
+        }    
+        .image-with-details-cont{
+            position: relative;
+            .background-img {
+                max-width:100%;
+                display:none;
+            }
+            .contact-details-cont {
+                margin-bottom:50px;   
+            }
+        }    
+    }
+    .contact-details-with-form .image-with-details-cont .contact-details-cont h2 {
+        font-size:26px !important;
+    }
+    .contact-details-with-form .form-cont h2 {
+        font-size: 22px !important;
+    }
+}
+
