@@ -25,7 +25,6 @@ const BlockEdit = ( props ) => {
 	};
 
 	const backgroundColorAndImage = {
-		backgroundImage: `url(${ props.attributes.backgroundImageUrl } )`,
 		backgroundColor: attributes.backgroundColor,
 	};
 
@@ -453,7 +452,7 @@ registerBlockType( 'cgb/ion-why-choose-us', {
 		backgroundImageUrl: {
 			type: 'string',
 			default: '',
-		}, 
+		},
 	},
 	edit: withSelect( ( select, props ) => {
 		return {
@@ -470,7 +469,6 @@ registerBlockType( 'cgb/ion-why-choose-us', {
 		};
 
 		const backgroundColorAndImage = {
-			backgroundImage: `url(${ props.attributes.backgroundImageUrl } )`,
 			backgroundColor: props.attributes.backgroundColor,
 		};
 		return (
@@ -498,7 +496,7 @@ registerBlockType( 'cgb/ion-why-choose-us', {
 									</div>
 									<div className="cont-text">
 										<h3	style={ textColor }>{ props.attributes.iconOneHeading }</h3>
-										<p style={ textColor }>{ props.attributes.iconOneDescription }</p>
+										<p style={ textColor } dangerouslySetInnerHTML={ { __html: props.attributes.iconOneDescription } } ></p>
 									</div>
 								</div>
 								<div className="icon-text-cont">
@@ -507,7 +505,7 @@ registerBlockType( 'cgb/ion-why-choose-us', {
 									</div>
 									<div className="cont-text">
 										<h3	style={ textColor }>{ props.attributes.iconTwoHeading }</h3>
-										<p style={ textColor }>{ props.attributes.iconTwoDescription }</p>
+										<p style={ textColor } dangerouslySetInnerHTML={ { __html: props.attributes.iconTwoDescription } } ></p>
 									</div>
 								</div>
 								<div className="icon-text-cont">
@@ -516,7 +514,7 @@ registerBlockType( 'cgb/ion-why-choose-us', {
 									</div>
 									<div className="cont-text">
 										<h3	style={ textColor }>{ props.attributes.iconThreeHeading }</h3>
-										<p style={ textColor }>{ props.attributes.iconThreeDescription }</p>
+										<p style={ textColor } dangerouslySetInnerHTML={ { __html: props.attributes.iconThreeDescription } } ></p>
 									</div>
 								</div>
 							</div>

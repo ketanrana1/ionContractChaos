@@ -1,0 +1,109 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+ 
+
+ .avoid-risks-cont-with-eight-columns { 
+	background-color: white;
+	padding: 85px 0 100px 0;
+	.left-cont {
+		padding: 40px;
+		padding-right: 10px;
+		h1 {
+		   font-size: 40px;
+		   letter-spacing: 2px;
+		   color: #000000;
+		   font-weight: 600;
+		   font-family: "Poppins";
+		   margin-bottom: 40px;
+		}
+		p {
+		   font-size: 16px;
+		   letter-spacing: 1px;
+		   line-height: 27px;
+		   color: #000000;
+		   font-weight: 300;
+		   font-family: "Poppins";
+		}
+	}
+	.right-outer-cont {
+	   .right-inner-cont {
+		   padding: 15px;
+		  border-radius: 12px;
+		  background-color: #ffffff;
+		  position:relative;
+		  box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+		  margin-bottom:90px;
+		  height:100%;
+	   }
+	   h2 {
+		   font-size: 21px;
+		   letter-spacing: 1px;
+		   color: #000000;
+		   font-weight: 500;
+		   font-family: "Poppins";
+		   text-align:center;
+		   margin-bottom: 20px;
+		   margin-top: 70px;
+	   }
+	   p {         
+		   font-size: 16px;
+		   letter-spacing: 1px;
+		   line-height: 27px;
+		   color: #000000;
+		   font-weight: 300;
+		   font-family: "Poppins";
+		   text-align: center;
+		   margin-bottom:15px;
+	   }
+	   img {
+		   display: block;
+		   margin: 0 auto; 
+		   position: absolute;
+		   top: -65px;
+		   left: 0;
+		   right: 0;
+		   max-width:100%;
+		   height: auto;
+	   }
+   }
+}
+
+.block-editor-rich-text__editable.main-heading-solutions.rich-text {
+	font-size: 40px;
+	letter-spacing: 2px;
+	color: #000000;
+	font-weight: 600;
+	font-family: "Poppins";
+	margin-bottom: 40px;
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+@media only screen and (max-width:992px) {
+
+   .avoid-risks-cont {
+	   padding: 25px 20px;
+	   .left-cont {
+		   padding: 20px;
+		   h1 {
+			  font-size: 22px;
+			  margin-bottom:20px;
+		   }
+		   p {
+			  font-size: 16px;
+			  margin-bottom:70px;
+	   }
+   }
+	   .right-outer-cont {
+		  .right-inner-cont {
+			 margin-bottom:80px;
+		  }
+	  }
+   }
+
+}

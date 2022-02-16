@@ -22,3 +22,4 @@ import './ion-image-on-right-text-on-left/block.js';
 import './ion-why-choose-us/block.js';
 import './ion-contact-map/block.js';
 import './ion-two-images-side-by-side/block.js';
+import './ion-avoid-risks-with-eight-columns/block.js';

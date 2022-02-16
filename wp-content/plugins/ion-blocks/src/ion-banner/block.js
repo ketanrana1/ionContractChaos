@@ -456,8 +456,8 @@ registerBlockType( 'cgb/block-ion-blocks', {
 					<div className="row">
 						<div className="col-md-12">
 							<div className="ion-banner-text-wrapper">
-								<h1 style={ headingStyle }> { props.attributes.heading } <span style={ headingStyleTwo } >{ props.attributes.coloredHeading } </span></h1>
-								<p style={ descriptionStyle }>{ props.attributes.description }</p>
+								<h1 style={ headingStyle }>  { props.attributes.heading } <span style={ headingStyleTwo } >{ props.attributes.coloredHeading } </span></h1>
+								{ <p style={ descriptionStyle } dangerouslySetInnerHTML={ { __html: props.attributes.description } }></p> }
 								<a href={ props.attributes.buttonUrl } className="ion-button-md" style={ buttonBg }>{ props.attributes.buttonText }</a>
 							</div>
 						</div>

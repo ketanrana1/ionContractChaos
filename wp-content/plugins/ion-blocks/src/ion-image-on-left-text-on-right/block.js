@@ -182,7 +182,7 @@ registerBlockType( 'cgb/ion-image-on-left-text-on-right', {
 							<div className="text-cont">
 								<h2 style={ textColor }>{ props.attributes.subHeading }</h2>
 								<h3 style={ textColor }>{ props.attributes.heading }</h3>
-								<p style={ textColor }>{ props.attributes.description }</p>
+								<p style={ textColor } dangerouslySetInnerHTML={ { __html: props.attributes.description } } ></p>
 							</div>
 
 						</div>

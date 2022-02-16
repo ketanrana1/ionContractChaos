@@ -53,6 +53,7 @@
                 img {
                     display:block;
                 margin: 0 auto;
+                max-width: 110px;
                 }
             }
             .cont-text {
@@ -103,9 +104,26 @@
                     p {
                         font-size: 16px;
                     }
-                }
+                } 
             }
         }
          
      }
  }
+
+ @media only screen and (max-width: 1300px) and (min-width: 993px) {
+    .avoid-risks-cont-with-eight-columns .container {
+        padding: 25px 0 0 0;
+    }
+
+    .ion-why-choose-us .text-cont h2 {
+        font-size: 30px;
+      }
+      .ion-why-choose-us .icon-text-outer-cont .icon-text-cont .cont-text h3 {
+        font-size: 24px;
+      }
+
+      .ion-why-choose-us .icon-text-outer-cont .icon-text-cont .cont-text p {
+        font-size: 14px;
+      }
+  }

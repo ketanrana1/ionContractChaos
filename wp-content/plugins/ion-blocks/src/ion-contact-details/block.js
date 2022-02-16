@@ -479,7 +479,7 @@ registerBlockType( 'cgb/ion-contact-details', {
 							<img className="background-img" src={ props.attributes.backgroundImageUrl } alt="" />
 							<div className="contact-details-cont">
 								<h2 style={ textColor }>{ props.attributes.leftColoumnHeading }</h2>
-								<p style={ textColor } className="top-para">{ props.attributes.leftColoumnDescription }</p>
+								<p style={ textColor } className="top-para" dangerouslySetInnerHTML={ { __html: props.attributes.leftColoumnDescription } } ></p>
 								<div className="each-icon-cont">
 									<div className="row align-items-center">
 										<div className="col-3">
@@ -488,7 +488,7 @@ registerBlockType( 'cgb/ion-contact-details', {
 										<div className="col-9">
 											<div className="text-cont">
 												<h3 style={ textColor }>{ props.attributes.addressTitle }</h3>
-												<p style={ textColor }>{ props.attributes.addressDescription }</p>
+												<p style={ textColor } dangerouslySetInnerHTML={ { __html: props.attributes.addressDescription } } ></p>
 											</div>
 										</div>
 									</div>
@@ -501,8 +501,8 @@ registerBlockType( 'cgb/ion-contact-details', {
 										<div className="col-9">
 											<div className="text-cont">
 												<h3 style={ textColor }>{ props.attributes.phoneTitle }</h3>
-												<p style={ textColor }>{ props.attributes.phoneDescription }</p>
-												<p style={ textColor }>{ props.attributes.phoneDescription2 }</p>
+												<p style={ textColor } dangerouslySetInnerHTML={ { __html: props.attributes.phoneDescription } } ></p>
+												<p style={ textColor } dangerouslySetInnerHTML={ { __html: props.attributes.phoneDescription2 } } ></p>
 											</div>
 										</div>
 									</div>
@@ -515,7 +515,7 @@ registerBlockType( 'cgb/ion-contact-details', {
 										<div className="col-9">
 											<div className="text-cont">
 												<h3 style={ textColor }>{ props.attributes.emailTitle }</h3>
-												<p style={ textColor }>{ props.attributes.emailDescription }</p>
+												<p style={ textColor } dangerouslySetInnerHTML={ { __html: props.attributes.emailDescription } } ></p>
 											</div>
 										</div>
 									</div>
@@ -526,7 +526,7 @@ registerBlockType( 'cgb/ion-contact-details', {
 					<div className="col-12 col-lg-7">
 						<div className="form-cont">
 							<h2 style={ textColor }>{ props.attributes.rightColoumnHeading }</h2>
-							<p style={ textColor } >{ props.attributes.rightColoumnDescription }</p>
+							<p style={ textColor } dangerouslySetInnerHTML={ { __html: props.attributes.rightColoumnDescription } } ></p>
 							<div>{ props.attributes.contactFormShortcode }</div>
 						</div>
 					</div>

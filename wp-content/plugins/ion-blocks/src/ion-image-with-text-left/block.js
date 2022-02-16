@@ -305,9 +305,9 @@ registerBlockType( 'cgb/ion-image-with-text-left', {
 						</div>
 						<div className="col-12 col-lg-6">
 							<div className="ion-twi-col-right content-pad-left">
-								<p style={ styleTextColor1 } className="sub-heading">{ props.attributes.subHeading }</p>
+								<p style={ styleTextColor1 } className="sub-heading" dangerouslySetInnerHTML={ { __html: props.attributes.subHeading } } ></p>
 								<h3 style={ styleTextColor2 } className="heading">{ props.attributes.heading }</h3>
-								<p style={ styleTextColor2 } className="description">{ props.attributes.description }</p>
+								<p style={ styleTextColor2 } className="description" dangerouslySetInnerHTML={ { __html: props.attributes.description } } ></p>
 							</div>
 						</div>
 					</div>

@@ -421,7 +421,7 @@ registerBlockType( 'cgb/ion-about-team', {
 				<div className="container">
 					<div className="inner-top-cont">
 						<h2 style={ headingColor } >{ props.attributes.mainHeading }</h2>
-						<p style={ headingColor } >{ props.attributes.description }</p>
+						<p style={ headingColor } dangerouslySetInnerHTML={ { __html: props.attributes.description } } ></p>
 					</div>
 					<div></div>
 					<div className="bottom-cont container">
@@ -432,7 +432,7 @@ registerBlockType( 'cgb/ion-about-team', {
 									<div className="text-cont">
 										<h3 style={ headingColor }>{ props.attributes.memberOneName }</h3>
 										<h4 style={ memberPositionColor }>{ props.attributes.memberOnePosition }</h4>
-										<p style={ headingColor }>{ props.attributes.memberOneDescription }</p>
+										<p style={ headingColor } dangerouslySetInnerHTML={ { __html: props.attributes.memberOneDescription } } ></p>
 									</div>
 								</div>
 							</div>
@@ -442,7 +442,7 @@ registerBlockType( 'cgb/ion-about-team', {
 									<div className="text-cont">
 										<h3 style={ headingColor }>{ props.attributes.memberTwoName }</h3>
 										<h4 style={ memberPositionColor }>{ props.attributes.memberTwoPosition }</h4>
-										<p style={ headingColor }>{ props.attributes.memberTwoDescription }</p>
+										<p style={ headingColor } dangerouslySetInnerHTML={ { __html: props.attributes.memberTwoDescription } } ></p>
 									</div>
 								</div>
 							</div>
@@ -452,7 +452,7 @@ registerBlockType( 'cgb/ion-about-team', {
 									<div className="text-cont">
 										<h3 style={ headingColor }>{ props.attributes.memberThreeName }</h3>
 										<h4 style={ memberPositionColor }>{ props.attributes.memberThreePosition }</h4>
-										<p style={ headingColor }>{ props.attributes.memberThreeDescription }</p>
+										<p style={ headingColor } dangerouslySetInnerHTML={ { __html: props.attributes.memberThreeDescription } } ></p>
 									</div>
 								</div>
 							</div>

@@ -61,7 +61,7 @@ const BlockEdit = ( props ) => {
 							/>
 						</MediaUploadCheck>
 					</PanelRow>
-					<PanelRow> 
+					<PanelRow>
 						{ attributes.leftImageId !== 0 &&
 							<MediaUploadCheck>
 								<Button style={ { textAlign: 'center', display: 'block', maxWidth: '100%' } } onClick={ () => setAttributes( {
@@ -285,7 +285,7 @@ registerBlockType( 'cgb/ion-avoid-costly-risks', {
 					<div className="row">
 						<div className="col-12 col-lg-5 left-cont">
 							<h1 style={ headingColor }>{ props.attributes.mainHeading }</h1>
-							<p style={ descriptionColor }>{ props.attributes.description }</p>
+							<p style={ descriptionColor } dangerouslySetInnerHTML={ { __html: props.attributes.description } } ></p>
 						</div>
 						<div className="col-12 col-lg-7 right-outer-cont container">
 							<div className="row gx-5 d-flex">
@@ -293,14 +293,14 @@ registerBlockType( 'cgb/ion-avoid-costly-risks', {
 									<div className="right-inner-cont p-3">
 										<img src={ props.attributes.leftImageUrl } alt="icon" />
 										<h2 style={ headingColor }> { props.attributes.leftHeading }</h2>
-										<p style={ descriptionColor } >{ props.attributes.leftDescription }</p>
+										<p style={ descriptionColor } dangerouslySetInnerHTML={ { __html: props.attributes.leftDescription } } ></p>
 									</div>
 								</div>
 								<div className="col-12 col-lg-6">
 									<div className="right-inner-cont p-3">
 										<img src={ props.attributes.rightImageUrl } alt="icon" />
 										<h2 style={ headingColor } >{ props.attributes.rightHeading }</h2>
-										<p style={ descriptionColor } >{ props.attributes.rightDescription }</p>
+										<p style={ descriptionColor } dangerouslySetInnerHTML={ { __html: props.attributes.rightDescription } } ></p>
 									</div>
 								</div>
 							</div>

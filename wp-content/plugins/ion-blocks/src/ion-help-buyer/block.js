@@ -193,7 +193,7 @@ registerBlockType( 'cgb/ion-help-buyer', {
 					<div className="col-12 col-lg-5">
 						<div className="left-cont">
 							<h2 style={ color }>{ props.attributes.heading }</h2>
-							<p style={ color }> { props.attributes.description }</p>
+							<p style={ color } dangerouslySetInnerHTML={ { __html: props.attributes.description } } ></p>
 
 						</div>
 

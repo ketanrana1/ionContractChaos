@@ -155,7 +155,7 @@ registerBlockType( 'cgb/ion-banner-image-with-text', {
 				<div className="container">
 					<div className="text-cont">
 						<h2 style={ textColor } >{ props.attributes.heading }</h2>
-						<p style={ textColor } >{ props.attributes.description }</p>
+						<p style={ textColor } dangerouslySetInnerHTML={ { __html: props.attributes.description } } ></p>
 					</div>
 				</div>
 			</section>
